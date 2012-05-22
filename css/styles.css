@@ -18,3 +18,8 @@
 ul li:hover {
   color: red;
 }
+
+.intro-blurb {
+  font-size: 2.8em;
+  line-height: 1.1em;
+}
