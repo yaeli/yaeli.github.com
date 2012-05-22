@@ -1,0 +1,20 @@
+.placeholder-images {
+  height: 300px;
+  width: 750px;
+}
+
+.placeholder-images.first {
+  background-color: purple;
+}
+
+.placeholder-images.second {
+  background-color: blue;
+}
+
+.placeholder-images.third {
+  background-color: green;
+}
+
+ul li:hover {
+  color: red;
+}
