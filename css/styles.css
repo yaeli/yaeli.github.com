@@ -6,6 +6,17 @@
   background-color: blue;
 }
 
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
 ul li:hover {
   color: red;
 }
@@ -15,7 +26,7 @@ ul li:hover {
 }
 
 .intro-blurb {
-  font-size: 2.8em;
+  font-size: 2.4em;
   line-height: 1.1em;
 }
 
@@ -31,7 +42,24 @@ a:hover {
   margin-bottom: 2%;
 }
 
-.hp-cta {
-  background-color: #d6d6d6;
-  padding: 2%;
+.btn-custom {
+  background-color: hsl(29, 100%, 37%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe8d23", endColorstr="#bc5b00");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#fe8d23), to(#bc5b00));
+  background-image: -moz-linear-gradient(top, #fe8d23, #bc5b00);
+  background-image: -ms-linear-gradient(top, #fe8d23, #bc5b00);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fe8d23), color-stop(100%, #bc5b00));
+  background-image: -webkit-linear-gradient(top, #fe8d23, #bc5b00);
+  background-image: -o-linear-gradient(top, #fe8d23, #bc5b00);
+  background-image: linear-gradient(#fe8d23, #bc5b00);
+  border-color: #bc5b00 #bc5b00 hsl(29, 100%, 32%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+
+.hp-ctas {
+  text-align: center;
+  margin: 3% 0;
 }
