@@ -21,6 +21,12 @@ ul li:hover {
   color: red;
 }
 
+.navbar {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 2em;
+}
+
 .intro {
   margin-bottom: 2%;
 }
