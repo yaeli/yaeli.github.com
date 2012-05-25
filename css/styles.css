@@ -6,7 +6,13 @@
   background-color: blue;
 }
 
-h1, h2 {
+.navbar {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+h1, h2, h3, h4 {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
 }
@@ -17,14 +23,10 @@ p {
   font-size: 1.2em;
 }
 
-ul li:hover {
-  color: red;
-}
-
-.navbar {
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700;
-  font-size: 2em;
+.list {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 .intro {
