@@ -1,9 +1,5 @@
-.placeholder-images.first {
-  background-color: purple;
-}
-
-.placeholder-images.second {
-  background-color: blue;
+body {
+  background-image: url(../images/background-image.jpg);
 }
 
 .navbar {
