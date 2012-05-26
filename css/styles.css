@@ -14,6 +14,12 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+.label {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
 h2 {
   margin-bottom: 2%;
 }
@@ -110,5 +116,24 @@ a:hover {
 }
 
 .contact {
-  margin: 2%;
+  margin: 5% 0;
+  padding: 2%;
+}
+
+.about-yael {
+  margin-bottom: 3%;
+}
+
+.more-about {
+  font-size: 0.8em;
+  margin: 2% 0;
+  line-height: 1.2em;
+}
+
+.more-about ul {
+  margin-top: 3%;
+}
+
+.more-about p {
+  margin-top: 5%;
 }
