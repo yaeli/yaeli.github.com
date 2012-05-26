@@ -124,7 +124,7 @@ blockquote p {
   margin: 3% 0;
 }
 
-.contact, .skills, .clients {
+.contact, .skills, .clients, .portfolio-links {
   margin: 5% 0;
   padding: 2%;
 }
@@ -149,4 +149,8 @@ blockquote p {
 
 .about-yael-services p {
   margin-top: 1%;
+}
+
+.proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
+  margin: 5% 0;
 }
