@@ -154,3 +154,11 @@ blockquote p {
 .proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
   margin: 5% 0;
 }
+
+.portfolio-img img {
+  margin: 2% 0;
+}
+
+.portfolio-img p {
+  font-size: 0.8em;
+}
