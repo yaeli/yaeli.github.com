@@ -110,6 +110,10 @@ a:hover {
   -webkit-font-smoothing: antialiased;
 }
 
+blockquote {
+  margin-top: 3%;
+}
+
 blockquote p {
   font-size: 1em;
 }
