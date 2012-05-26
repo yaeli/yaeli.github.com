@@ -123,7 +123,7 @@ blockquote p {
   margin: 3% 0;
 }
 
-.contact {
+.contact, .skills, .clients {
   margin: 5% 0;
   padding: 2%;
 }
