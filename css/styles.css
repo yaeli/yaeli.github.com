@@ -110,6 +110,10 @@ a:hover {
   -webkit-font-smoothing: antialiased;
 }
 
+blockquote p {
+  font-size: 1em;
+}
+
 .ctas {
   text-align: center;
   margin: 3% 0;
