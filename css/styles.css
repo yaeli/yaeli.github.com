@@ -14,6 +14,10 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+h2 {
+  margin-bottom: 2%;
+}
+
 p {
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
@@ -78,4 +82,8 @@ a:hover {
 .ctas {
   text-align: center;
   margin: 3% 0;
+}
+
+.contact {
+  margin: 2%;
 }
