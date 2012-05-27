@@ -23,6 +23,7 @@ h1, h2, h3, h4 {
 
 h2 {
   margin-bottom: 2%;
+  font-size: 2.5em;
 }
 
 p {
@@ -139,6 +140,11 @@ blockquote p {
 
 .about-yael {
   margin-bottom: 3%;
+}
+
+.about-yael img {
+  float: left;
+  margin-right: 1% 
 }
 
 .more-about {
