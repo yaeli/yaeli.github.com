@@ -176,3 +176,16 @@ blockquote p {
 .portfolio-img p {
   font-size: 0.8em;
 }
+
+.project-meta {
+  background-color: #E2AF34;
+  color: #333333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.project-meta p {
+  padding-left: 2%;
+}
