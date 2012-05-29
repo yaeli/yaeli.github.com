@@ -182,6 +182,10 @@ blockquote p {
   font-size: 0.8em;
 }
 
+.logo img {
+  margin-left: 20%;
+}
+
 .project-meta {
   background-color: #E2AF34;
   color: #333333;
