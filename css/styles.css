@@ -1,7 +1,11 @@
 body {
-  background-image: url(../images/background-image.jpg);
-  background-color: #B61313;
+  /*  TODO: change this background colour to whatever is the solid fill for the footer */
+  background-color: #131313;
   color: #ebebeb;
+}
+
+.wrapper {
+  background-image: url('../images/background-image.jpg');
 }
 
 .navbar {
@@ -77,7 +81,6 @@ a:hover {
 
 #footer {
 	padding: 2%;
-	margin-top:4%;
 	font-size: 0.8em;
 	text-align: right;
   min-height: 40px;
