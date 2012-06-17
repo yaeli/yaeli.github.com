@@ -10,8 +10,8 @@
   <meta charset="UTF-8" />
   <link href="../../css/bootstrap.css" rel="stylesheet">
   <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
-  <link href="../../css/docs.css" rel="stylesheet">
   <link href="../../css/styles.css" rel="stylesheet">
+  <link href="../../lib/fancybox/jquery.fancybox.css" rel="stylesheet">
     
 </head>
 <body>
@@ -87,8 +87,14 @@
               <div class="proj-outcome">
                 <span class="label label-inverse">The Outcome</span>
                 <p>From these external sessions, internal sessions and my own usability review, a clear picture began to emerge of the key problems and areas for improvement. I created a short report with my findings and recommendations for improvement, as well as producing wireframes using Axure in the main areas to illustrate how improvements could be made. I presented these to internal stakeholders at JustGiving for further review.</p>
-                <span class="portfolio-img"><img src="http://farm9.staticflickr.com/8022/6999058152_5fdbcf5b8b_c.jpg" width="557" height="800" alt="Homepage"><p>Screenshot of an Axure prototype created to augment my report with recommendations for improvements.</p></span>
-                <span class="portfolio-img"><img src="http://farm9.staticflickr.com/8012/7145144439_18cd0152be.jpg" width="500" height="398" alt="Fundraising_Events"><p>Screenshot of an Axure prototype created to augment my report with recommendations for improvements.</p></span>  
+                <a class="lightbox" href="http://farm9.staticflickr.com/8022/6999058152_5fdbcf5b8b_b.jpg" title="Screenshot of an Axure prototype created to augment my report with recommendations for improvements."> 
+                  <img src="http://farm9.staticflickr.com/8022/6999058152_5fdbcf5b8b_q.jpg" alt="3. sketch2">
+                </a>
+                <span class="portfolio-img"><p>Screenshot of an Axure prototype created to augment my report with recommendations for improvements.</p></span>
+                <a class="lightbox" href="http://farm9.staticflickr.com/8012/7145144439_18cd0152be_b.jpg" title="Screenshot of an Axure prototype created to augment my report with recommendations for improvements."> 
+                  <img src="http://farm9.staticflickr.com/8012/7145144439_18cd0152be_q.jpg" alt="3. sketch2">
+                </a>
+                <span class="portfolio-img"><p>Screenshot of an Axure prototype created to augment my report with recommendations for improvements.</p></span>
                 <p>Some of the key problem areas that I highlighted in my report were:</p>
                 <ul class="list">
                   <li>Unclear navigational structure and confusing taxonomy</li>
@@ -137,12 +143,23 @@
     <p>Company Registration Number: 8079562. <br> Registered in England &amp; Wales.<br>Registered Office Address: Unit 11, Hove Business Centre, Fonthill Road, Hove, BN3 6HA.</p>
   </div>
   
-  <script src="js/jquery-1.7.2.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="../../js/jquery-1.7.2.min.js"></script>
+  <script src="../../js/bootstrap.js"></script>
+  <script src="../../lib/fancybox/jquery.fancybox.js"></script>
   
   <script type="text/javascript">
-    $('#navbar').scrollspy()
-    $('#myModal').modal(options)
+    $('#navbar').scrollspy();
+    $('#myModal').modal();
+    
+    $(document).ready(function() {
+      $(".lightbox").fancybox({
+        helpers: {
+          title : {
+            type : 'float'
+          }
+        }
+      });
+    });
   </script>
 </body>
 </html>
