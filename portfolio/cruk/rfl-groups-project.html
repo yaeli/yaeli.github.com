@@ -10,8 +10,8 @@
   <meta charset="UTF-8" />
   <link href="../../css/bootstrap.css" rel="stylesheet">
   <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
-  <link href="../../css/docs.css" rel="stylesheet">
   <link href="../../css/styles.css" rel="stylesheet">
+  <link href="../../lib/fancybox/jquery.fancybox.css" rel="stylesheet">
     
 </head>
 <body>
@@ -82,7 +82,10 @@
                 <span class="label label-inverse">What I Did</span>
                 <p>I was briefed that the new Groups functionality would have to be included without changing the existing registration process for individuals, given me limited scope as to what I could and could not touch. This was partly due to the fact that the current registration process had been through extensive usability testing and multivariate testing already.</p>
                 <p>Evaluating the current registration process, as well as the technical limitations as discussed with the developers on the team, I began working on the user flows for group registration. This encompassed both creating a group and joining a group, and was achieved by mocking up the various flows using Omnigraffle.</p>
-                <span class="portfolio-img"><img src="http://farm8.staticflickr.com/7113/6941622010_def76dbec7.jpg" width="500" height="339" alt="OmniGraffle Professional 2"><p>Example user flow from the documentation I created</p></span>
+                <a class="lightbox" href="http://farm8.staticflickr.com/7113/6941622010_46531ab13b_o.png" title="Example user flow from the documentation I created">
+                  <img src="http://farm8.staticflickr.com/7113/6941622010_def76dbec7_q.jpg" alt="1. Existing EUA">
+                </a>
+                <span class="portfolio-img"><p>Example user flow from the documentation I created</p></span>
                 <p>I then moved on to fleshing out the various screens - moving from sketches to wireframes in Omnigraffle. There were a number of considerations:</p>
                 <ul class="list">
                   <li>How to redesign the landing page so that both individual and group registration were represented</li>
@@ -96,9 +99,15 @@
               <div class="proj-outcome">
                 <span class="label label-inverse">The Outcome</span>
                 <p>I created full documentation for this project, including user flows and wireframes for all the various scenarios and interactive states, in conjunction with close consultation from the Project Manager, Business Intelligence and Developer teams. I presented the wireframes to the stakeholders of the project, and with full approval, handed over the project ready for the Build phase.</p>
-                <span class="portfolio-img"><img src="http://farm6.staticflickr.com/5464/7087694129_c8412b1491.jpg" width="500" height="337" alt="OmniGraffle Professional"><p>Example wireframe from the documentation I created</p></span>
+                <a class="lightbox" href="http://farm6.staticflickr.com/5464/7087694129_aed24ab3bc_o.png" title="Example wireframe from the documentation I created">
+                  <img src="http://farm6.staticflickr.com/5464/7087694129_c8412b1491_q.jpg" alt="1. Existing EUA">
+                </a>
+                <span class="portfolio-img"><p>Example wireframe from the documentation I created</p></span>
                 <p>Race For Life's Groups functionality was in place for Race for Life 2012.</p>
-                <span class="portfolio-img"><img src="http://farm6.staticflickr.com/5457/6941621742_680cd24586.jpg" width="500" height="324" alt="Google Chrome 2"><p>Example slides from the presentation</p></span>
+                <a class="lightbox" href="http://farm6.staticflickr.com/5457/6941621742_445a70399a_o.png" title="End product">
+                  <img src="http://farm6.staticflickr.com/5457/6941621742_680cd24586_q.jpg" alt="1. Existing EUA">
+                </a>
+                <span class="portfolio-img"><p>End product</p></span>
               </div>
               <a href="#top">Back to the top of the page</a> 
             </div>
@@ -138,12 +147,23 @@
     <p>Company Registration Number: 8079562. <br> Registered in England &amp; Wales.<br>Registered Office Address: Unit 11, Hove Business Centre, Fonthill Road, Hove, BN3 6HA.</p>
   </div>
   
-  <script src="js/jquery-1.7.2.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="../../js/jquery-1.7.2.min.js"></script>
+  <script src="../../js/bootstrap.js"></script>
+  <script src="../../lib/fancybox/jquery.fancybox.js"></script>
   
   <script type="text/javascript">
-    $('#navbar').scrollspy()
-    $('#myModal').modal(options)
+    $('#navbar').scrollspy();
+    $('#myModal').modal();
+    
+    $(document).ready(function() {
+      $(".lightbox").fancybox({
+        helpers: {
+          title : {
+            type : 'float'
+          }
+        }
+      });
+    });
   </script>
 </body>
 </html>
