@@ -126,7 +126,7 @@ blockquote p {
   padding-bottom: 2%;
 }
 
-.contact, .skills, .clients, .portfolio-links {
+.contact, .skills, .clients, .portfolio-links, .availability {
   margin: 5% 0;
   padding: 2%;
 }
