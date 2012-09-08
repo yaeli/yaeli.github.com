@@ -66,6 +66,12 @@ p {
   padding: 2%;
 }
 
+.intro-subhead {
+  font-size: 2em;
+  line-height: 1em;
+  padding: 2%;
+}
+
 a {
   color: #E2AF34;
 }
