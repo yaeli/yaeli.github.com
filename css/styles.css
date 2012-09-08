@@ -196,3 +196,7 @@ blockquote p {
 .skills p {
   font-size: 1em;
 }
+
+.recommendations p {
+  font-family: Arial;
+}
