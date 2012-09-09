@@ -51,6 +51,13 @@ p {
   -khtml-border-radius: 10px;
 }
 
+.spotlight {
+  text-align: center;
+  padding: 2%;
+  font-size: 1.8em;
+  margin: 6% 0;
+}
+
 .top-banner {
   margin-bottom: 2%;
 }
@@ -136,6 +143,10 @@ blockquote p {
   padding-bottom: 2%;
 }
 
+.about-main {
+  margin-top: 4%;
+}
+
 .contact, .skills, .clients, .portfolio-links {
   margin: 5% 0;
   padding: 2%;
@@ -150,22 +161,16 @@ blockquote p {
 }
 
 .about-yael img {
-  float: left;
-  margin-right: 1% 
+  margin-bottom: 3% 
 }
 
 .more-about {
-  font-size: 0.8em;
-  margin: 2% 0;
-  line-height: 1.2em;
+  margin-top: 5%;
 }
 
 .more-about ul {
-  margin-top: 3%;
-}
-
-.more-about p {
-  margin-top: 5%;
+  font-size: 1em;
+  line-height: 1.4em;
 }
 
 .about-yael-services p {
@@ -185,7 +190,9 @@ blockquote p {
 }
 
 .logo img {
-  margin-left: 20%;
+  position: absolute;
+  left: 70px;
+  top: 215px;
 }
 
 .project-meta {
