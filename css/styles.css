@@ -190,6 +190,10 @@ blockquote p {
 }
 
 .logo img {
+  margin-left: 20%;
+}
+
+.logo-about img {
   position: absolute;
   left: 70px;
   top: 215px;
