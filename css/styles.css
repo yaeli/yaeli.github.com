@@ -168,9 +168,14 @@ blockquote p {
   margin-top: 5%;
 }
 
+.more-about p {
+  margin-top: 3%;
+}
+
 .more-about ul {
   font-size: 1em;
   line-height: 1.4em;
+  margin-top: 2%;
 }
 
 .about-yael-services {
@@ -183,6 +188,22 @@ blockquote p {
 
 .proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
   margin: 5% 0;
+}
+
+.proj-challenge p {
+  margin-top: 2%;
+}
+
+.proj-actual p {
+  margin-top: 2%;
+}
+
+.proj-outcome p {
+  margin-top: 2%;
+}
+
+.proj-eval p {
+  margin-top: 2%;
 }
 
 .portfolio-img img {
