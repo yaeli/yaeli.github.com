@@ -51,6 +51,10 @@ p {
   -khtml-border-radius: 10px;
 }
 
+.top-banner {
+  margin-bottom: 2%;
+}
+
 .btn-hp {
   width: 60%;
   margin: 1% 0;
@@ -67,7 +71,7 @@ p {
 }
 
 .intro-subhead {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1em;
   padding: 2%;
 }
@@ -132,9 +136,13 @@ blockquote p {
   padding-bottom: 2%;
 }
 
-.contact, .skills, .clients, .portfolio-links, .availability {
+.contact, .skills, .clients, .portfolio-links {
   margin: 5% 0;
   padding: 2%;
+}
+
+.availability {
+ padding: 2%; 
 }
 
 .about-yael {
