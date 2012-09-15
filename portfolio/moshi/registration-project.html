@@ -89,6 +89,35 @@
           </div>
           <div class="row">
             <div class="span8 portfolio-main-content">
+              <div class="span7 showcase">
+                  <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="active item">
+                        <div class="placeholder-images first"></div>
+                        <div class="carousel-caption">
+                          <h4>Purple Rain</h4>
+                          <p>Yayface</p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="placeholder-images second"></div>
+                        <div class="carousel-caption">
+                          <h4>Bluebird</h4>
+                          <p>Yayface</p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="placeholder-images third"></div>
+                        <div class="carousel-caption">
+                          <h4>Green Envy</h4>
+                          <p>Yayface</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                  </div>
+                </div>
               <div class="proj-challenge">
                 <span class="label label-inverse">The Challenge</span>
                 <p>Moshi Monsters is a staggeringly successful online children's game. It has over 50 million registered users all across the world, with a target market of children between 7-13. The premise of the game is that you adopt your own pet monster, enter the world of Monstro City and play games, solve puzzles and make friends.</p>
@@ -192,6 +221,19 @@
           }
         }
       });
+    });
+    
+    $("#names li").click (function () {
+      var name = $(this).text() ;
+      var newpara = $("<p>" + name + "</p>")
+        .hide()
+        .click (function () {
+          $(this)
+            .fadeOut("fast", function(){
+              $(this).remove();
+            });
+        });
+      $("#list-info").append(newpara.fadeIn());
     });
   </script>
 </body>
