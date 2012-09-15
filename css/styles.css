@@ -186,6 +186,18 @@ blockquote p {
   margin-top: 1%;
 }
 
+.portfolio-main-content {
+  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ebebeb;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+  margin-top: 2%;
+  padding: 1%;
+}
+
 .proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
   margin: 5% 0;
 }
