@@ -1,0 +1,24 @@
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="./index.html">
+      <img src="images/logo-tiny.png" alt="logo-smallest" />  Bad Robot Design
+      </a>
+      <ul class="nav">
+        <li {% if page.nav == "home" %} class="active"{% endif %}>
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="divider-vertical"></li>
+        <li {% if page.nav == "about" %} class="active"{% endif %}><a href="./about.html">About</a></li>
+        <li class="divider-vertical"></li>
+        <li {% if page.nav == "portfolio" %} class="active"{% endif %}><a href="./portfolio.html">Portfolio</a></li>
+        <li class="divider-vertical"></li>
+        <li {% if page.nav == "services" %} class="active"{% endif %}><a href="./services.html">Services</a></li>
+        <li class="divider-vertical"></li>
+        <li {% if page.nav == "testimonials" %} class="active"{% endif %}><a href="./testimonials.html">Testimonials</a></li>
+        <li class="divider-vertical"></li>
+        <li {% if page.nav == "blog" %} class="active"{% endif %}><a href="http://blog.badrobotdesign.com/">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
