@@ -252,6 +252,11 @@ blockquote p {
   font-family: Arial;
 }
 
+.recommendations .overlay {
+  margin: 2% 0;
+  padding: 1%;
+}
+
 .placeholder-images {
   height: 300px;
   width: 750px;
