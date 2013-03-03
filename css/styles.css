@@ -202,6 +202,14 @@ blockquote p {
   margin-top: 4%;
 }
 
+.about-yael-services.overlay {
+  padding: 1%;
+}
+
+.more-services.overlay {
+  padding: 2%;
+}
+
 .about-yael-services p {
   margin-top: 1%;
 }
