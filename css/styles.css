@@ -250,26 +250,10 @@ blockquote p {
 
 .recommendations p {
   font-family: Arial;
+  font-size: 1em;
 }
 
 .recommendations .overlay {
   margin: 2% 0;
   padding: 1%;
-}
-
-.placeholder-images {
-  height: 300px;
-  width: 750px;
-}
-
-.placeholder-images.first {
-  background-color: purple;
-}
-
-.placeholder-images.second {
-  background-color: blue;
-}
-
-.placeholder-images.third {
-  background-color: green;
 }
