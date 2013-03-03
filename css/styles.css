@@ -149,7 +149,12 @@ blockquote p {
   padding: 2%;
 }
 
-.availability {
+.featured-thumbnail {
+  float: left;
+  padding: 0 3% 0 0;
+}
+
+.featured-work {
  padding: 2%; 
 }
 
