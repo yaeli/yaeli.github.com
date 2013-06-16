@@ -145,7 +145,7 @@ blockquote p {
 }
 
 .contact, .skills, .clients, .portfolio-links {
-  margin: 5% 0;
+  margin: 3% 0;
   padding: 2%;
 }
 
@@ -159,7 +159,7 @@ blockquote p {
 }
 
 .meet-BRD {
-  margin-top: 5%;
+  margin-top: 1.5%;
   margin-left: 3%;
   
 }
@@ -199,7 +199,7 @@ blockquote p {
 }
 
 .about-yael-services {
-  margin-top: 4%;
+  margin-top: 1.5%;
 }
 
 .about-yael-services.overlay {
@@ -212,6 +212,10 @@ blockquote p {
 
 .about-yael-services p {
   margin-top: 1%;
+}
+
+.portfolio-list {
+  margin-top: 1.5%;
 }
 
 .portfolio-main-content {
@@ -277,6 +281,6 @@ blockquote p {
 }
 
 .recommendations .overlay {
-  margin: 2% 0;
+  margin: 1.5% 0;
   padding: 1%;
 }
