@@ -41,6 +41,16 @@ p {
   font-size: 1.2em;
 }
 
+.overlay-home {
+  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
 .overlay {
   background-color: #333;
   background-color: rgba(0, 0, 0, 0.5);
@@ -63,8 +73,33 @@ p {
 }
 
 .btn-hp {
-  width: 60%;
-  margin: 1% 0;
+  background-color: #E2AF34;
+  border-color: #E2AF34;
+}
+
+.btn-hp:hover {
+  background-color: #E2AF34;
+  border-color: #E2AF34;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn-second {
+  background-color: #8D8989;
+  border-color: #8D8989;
+  color: #FFFFFF;
+}
+
+.btn-second:hover {
+  background-color: #8D8989;
+  border-color: #8D8989;
+  color: #333;
+  font-weight: bold;
+}
+
+.ctas {
+  text-align: center;
+  width: 40%;
 }
 
 .intro {
@@ -105,23 +140,6 @@ a:hover {
   background-color: #2c2c2c;
 }
 
-.btn-custom {
-  background-color: hsl(41, 85%, 51%) !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5d389", endColorstr="#eca817");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#f5d389), to(#eca817));
-  background-image: -moz-linear-gradient(top, #f5d389, #eca817);
-  background-image: -ms-linear-gradient(top, #f5d389, #eca817);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5d389), color-stop(100%, #eca817));
-  background-image: -webkit-linear-gradient(top, #f5d389, #eca817);
-  background-image: -o-linear-gradient(top, #f5d389, #eca817);
-  background-image: linear-gradient(#f5d389, #eca817);
-  border-color: #eca817 #eca817 hsl(41, 85%, 45%);
-  color: #333 !important;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.39);
-  -webkit-font-smoothing: antialiased;
-}
-
 blockquote {
   margin-top: 3%;
   background-color: #333333;
@@ -136,12 +154,6 @@ blockquote {
 blockquote p {
   font-size: 1.3em;
   line-height: 2em;
-}
-
-.ctas {
-  text-align: center;
-  margin: 2%;
-  padding-bottom: 2%;
 }
 
 .contact, .skills, .clients, .portfolio-links {
