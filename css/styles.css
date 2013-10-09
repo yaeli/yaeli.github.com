@@ -1,6 +1,6 @@
 body {
   background-color: #2c2c2c;
-  color: #ebebeb;
+  color: #333;
 }
 
 .wrapper {
@@ -277,10 +277,6 @@ blockquote p {
   padding-left: 2%;
 }
 
-.skills p {
-  font-size: 1em;
-}
-
 .recommendations p {
   font-family: Arial;
   font-size: 1em;
@@ -289,4 +285,12 @@ blockquote p {
 .recommendations .overlay {
   margin: 1.5% 0;
   padding: 1%;
+}
+
+#footer h2 {
+  color: #FFFFFF; 
+}
+
+#footer p {
+  color: #FFFFFF; 
 }
