@@ -25,7 +25,6 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  margin-bottom: 2%;
   font-size: 1.5em;
 }
 
@@ -98,7 +97,7 @@ p {
 
 .ctas {
   text-align: center;
-  width: 40%;
+  width: 100%;
 }
 
 .intro {
@@ -155,18 +154,13 @@ blockquote p {
   line-height: 2em;
 }
 
-.contact, .skills, .clients, .portfolio-links {
-  margin: 3% 0;
+.contact, .skills, .clients, .portfolio-links, .featured {
   padding: 2%;
 }
 
 .featured-thumbnail {
   float: left;
-  padding: 0 3% 0 0;
-}
-
-.featured-work {
- padding: 2%; 
+  padding: 0 2% 0 0;
 }
 
 .meet-BRD {
