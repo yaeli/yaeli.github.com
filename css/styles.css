@@ -160,7 +160,6 @@ blockquote p {
 }
 
 .skills {
-  border: solid 2px #BD0011;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -233,10 +232,6 @@ blockquote p {
   margin-top: 1%;
 }
 
-.portfolio-list {
-  margin-top: 1.5%;
-}
-
 .portfolio-main-content {
   background-color: #333;
   background-color: rgba(0, 0, 0, 0.2);
@@ -306,4 +301,15 @@ blockquote p {
 
 #footer p {
   color: #FFFFFF; 
+}
+
+.thumbnails {
+  list-style: none;
+}
+
+.piece {
+  border-top: solid 2px #B30008;
+  padding: 2% 0 0 0;
+  text-align: center;
+  margin: 5%;
 }
