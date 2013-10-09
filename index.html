@@ -11,21 +11,27 @@ title: Homepage
 </div>
 
 <div class="row intro">
-  <div class="col-md-8">
-    <div class="overlay">
-      <p class="intro-blurb">A <strong>UX design consultancy</strong> based in London. <strong>No Good Robots allowed</strong>.</p>
-      <p class="intro-subhead">We <strong>question the rules</strong> and <strong>get underneath the skin of your users</strong>. We listen to how people <strong>make sense of their world</strong> and understand <strong>what makes them tick</strong>.</p> 
-      <p class="intro-subhead">Above all, we make <strong>pleasurable digital experiences</strong> that <strong>just work</strong>.</p>
-      <p class="intro-subhead">See what a <strong>Bad Robot</strong> can do for you:</p> 
-      <div class="ctas">
-        <a class="btn btn-custom btn-lg btn-hp" href="./make.html"><strong>Take a look at our work</strong></a>
-        <a class="btn btn-custom btn-sm btn-hp" href="./badrobots.html">Find out more about us</a>
+  <div class="col-md-12">
+    <div class="jumbotron">
+      <div class="overlay">
+        <p class="intro-blurb">A <strong>UX design consultancy</strong> based in London. <strong>No Good Robots allowed</strong>.</p>
+        <p class="intro-subhead">We <strong>question the rules</strong> and <strong>get underneath the skin of your users</strong>. We listen to how people <strong>make sense of their world</strong> and understand <strong>what makes them tick</strong>.</p> 
+        <p class="intro-subhead">Above all, we make <strong>pleasurable digital experiences</strong> that <strong>just work</strong>.</p>
+        <p class="intro-subhead">See what a <strong>Bad Robot</strong> can do for you:</p> 
+        <p><a class="btn btn-primary btn-lg" href="./make.html">Take a look at our work</a></p>
+        <p><a class="btn btn-lg" href="./badrobots.html">Find out more about us</a></p>
       </div>
     </div>
-  </div>   
-  <div class="home col-md-4">
-    <div class="overlay featured-work">
-      <h2>Featured Work:</h2>
+  </div>
+    
+<div class="row">
+  <div class="col-md-12">
+    <div class="home col-md-6">
+      {% include contact-box.html %}  
+    </div>
+    <div class="home col-md-6">
+      <div class="overlay featured-work">
+        <h2>Featured Work:</h2>
         <div class="featured-thumbnail">
           <a href="./make/EY/digital-guidelines-project.html"><img src="http://farm9.staticflickr.com/8310/8043109085_bb0a2522f3_q.jpg" alt="Post it notes with areas of concern" width="100" height="100"> </a>
         </div>
@@ -33,7 +39,7 @@ title: Homepage
           <p><a href="./make/EY/digital-guidelines-project.html">Ernst & Young</a></p>
           <small>An exciting project to bring the Ernst & Young brand guidelines into the digital age, by creating digital guidelines spanning desktop, mobile and social.</small>
         </div>
+      </div>
     </div>
-    {% include contact-box.html %}
-  </div> 
+  </div>
 </div>
