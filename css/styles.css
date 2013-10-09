@@ -37,7 +37,7 @@ p {
 .list {
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  line-height: normal;
 }
 
 .overlay-home {
@@ -157,6 +157,19 @@ blockquote p {
 
 .contact, .skills, .clients, .portfolio-links, .featured {
   padding: 2%;
+}
+
+.skills {
+  border: solid 2px #BD0011;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+  padding: 3%;
+}
+
+.skills h2 {
+  text-align: center;
 }
 
 .featured-thumbnail {
