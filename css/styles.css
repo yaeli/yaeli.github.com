@@ -320,3 +320,9 @@ blockquote p {
   margin: 4% 0 4% 0;
   padding: 1% 0 1% 0;
 }
+
+.reco {
+  border-top: solid 2px #B30008;
+  margin: 4% 0 4% 0;
+  padding: 1% 0 1% 0;
+}
