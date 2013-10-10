@@ -1,6 +1,6 @@
 body {
   background-color: #2c2c2c;
-  color: #ebebeb;
+  color: #333;
 }
 
 .wrapper {
@@ -8,37 +8,45 @@ body {
 }
 
 .navbar {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Quicksand', cursive;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Quicksand', cursive;
   font-weight: 700;
 }
 
 .label {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Quicksand', cursive;
   font-weight: 700;
-  font-size: 1.8em;
+  font-size: 1em;
 }
 
 h2 {
-  margin-bottom: 2%;
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 p {
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .list {
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 1.2em;
+  line-height: normal;
+}
+
+.overlay-home {
+
+  color: #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
 }
 
 .overlay {
@@ -54,7 +62,7 @@ p {
 .spotlight {
   text-align: center;
   padding: 2%;
-  font-size: 1.8em;
+  font-size: 1.5em;
   margin: 6% 0;
 }
 
@@ -63,8 +71,33 @@ p {
 }
 
 .btn-hp {
-  width: 60%;
-  margin: 1% 0;
+  background-color: #E2AF34;
+  border-color: #E2AF34;
+}
+
+.btn-hp:hover {
+  background-color: #E2AF34;
+  border-color: #E2AF34;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn-second {
+  background-color: #8D8989;
+  border-color: #8D8989;
+  color: #FFFFFF;
+}
+
+.btn-second:hover {
+  background-color: #8D8989;
+  border-color: #8D8989;
+  color: #333;
+  font-weight: bold;
+}
+
+.ctas {
+  text-align: center;
+  width: 100%;
 }
 
 .intro {
@@ -72,13 +105,13 @@ p {
 }
 
 .intro-blurb {
-  font-size: 2.5em;
+  font-size: 2.2em;
   line-height: 1.1em;
   padding: 2%;
 }
 
 .intro-subhead {
-  font-size: 1.8em;
+  font-size: 1.4em;
   line-height: 1em;
   padding: 2%;
 }
@@ -96,30 +129,14 @@ a:hover {
 }
 
 #footer {
-	padding: 2%;
-	font-size: 0.8em;
+	padding: 1%;
+	font-size: 1em;
 	text-align: right;
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #2c2c2c;
-}
-
-.btn-custom {
-  background-color: hsl(41, 85%, 51%) !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5d389", endColorstr="#eca817");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#f5d389), to(#eca817));
-  background-image: -moz-linear-gradient(top, #f5d389, #eca817);
-  background-image: -ms-linear-gradient(top, #f5d389, #eca817);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5d389), color-stop(100%, #eca817));
-  background-image: -webkit-linear-gradient(top, #f5d389, #eca817);
-  background-image: -o-linear-gradient(top, #f5d389, #eca817);
-  background-image: linear-gradient(#f5d389, #eca817);
-  border-color: #eca817 #eca817 hsl(41, 85%, 45%);
-  color: #333 !important;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.39);
-  -webkit-font-smoothing: antialiased;
+  background-color: #020202;
+  border-top: 2px #8D8989 solid;
 }
 
 blockquote {
@@ -134,28 +151,29 @@ blockquote {
 }
 
 blockquote p {
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 2em;
 }
 
-.ctas {
-  text-align: center;
-  margin: 2%;
-  padding-bottom: 2%;
+.contact, .skills, .clients, .portfolio-links, .featured {
+  padding: 2%;
 }
 
-.contact, .skills, .clients, .portfolio-links {
-  margin: 3% 0;
-  padding: 2%;
+.skills {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+  padding: 3%;
+}
+
+.skills h2 {
+  text-align: center;
 }
 
 .featured-thumbnail {
   float: left;
-  padding: 0 3% 0 0;
-}
-
-.featured-work {
- padding: 2%; 
+  padding: 0 2% 0 0;
 }
 
 .meet-BRD {
@@ -185,16 +203,6 @@ blockquote p {
 }
 
 .more-about {
-  margin-top: 5%;
-}
-
-.more-about p {
-  margin-top: 3%;
-}
-
-.more-about ul {
-  font-size: 1em;
-  line-height: 1.4em;
   margin-top: 2%;
 }
 
@@ -214,40 +222,13 @@ blockquote p {
   margin-top: 1%;
 }
 
-.portfolio-list {
-  margin-top: 1.5%;
-}
-
 .portfolio-main-content {
-  background-color: #333;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #ebebeb;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  -khtml-border-radius: 10px;
+  border-top: solid 2px #B30008;
   margin-top: 2%;
-  padding: 1%;
 }
 
 .proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
-  margin: 5% 0;
-}
-
-.proj-challenge p {
-  margin-top: 2%;
-}
-
-.proj-actual p {
-  margin-top: 2%;
-}
-
-.proj-outcome p {
-  margin-top: 2%;
-}
-
-.proj-eval p {
-  margin-top: 2%;
+  margin: 2% 0;
 }
 
 .portfolio-img img {
@@ -255,7 +236,8 @@ blockquote p {
 }
 
 .portfolio-img p {
-  font-size: 0.8em;
+  font-size: 0.6em;
+  font-style: italic;
 }
 
 .project-meta {
@@ -271,16 +253,38 @@ blockquote p {
   padding-left: 2%;
 }
 
-.skills p {
-  font-size: 1em;
+#footer h2 {
+  color: #FFFFFF; 
 }
 
-.recommendations p {
-  font-family: Arial;
-  font-size: 1em;
+#footer p {
+  color: #FFFFFF; 
 }
 
-.recommendations .overlay {
-  margin: 1.5% 0;
-  padding: 1%;
+.thumbnails {
+  list-style: none;
+}
+
+.piece {
+  border-top: solid 2px #B30008;
+  padding: 2% 0 0 0;
+  text-align: center;
+  margin: 5%;
+}
+
+.yael-skills {
+  border-top: solid 2px #B30008;
+  border-bottom: solid 2px #B30008;
+  margin: 4% 0 4% 0;
+  padding: 1% 0 1% 0;
+}
+
+.reco {
+  border-top: solid 2px #B30008;
+  margin: 4% 0 4% 0;
+  padding: 1% 0 1% 0;
+}
+
+.label {
+  background-color: #E2AF34;
 }

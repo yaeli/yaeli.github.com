@@ -1,17 +1,14 @@
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="brand" href="./index.html">
-      <img src="images/logo-tiny.png" alt="logo-smallest" />  Bad Robot Design
-      </a>
-      <ul class="nav">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="./index.html"><img src="images/logo-tiny.png" alt="logo-smallest" />  Bad Robot Design</a>
+  </div>
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
         <li {% if page.nav == "home" %} class="active"{% endif %}>
           <a href="./index.html">Home</a>
         </li>
         <li class="divider-vertical"></li>
         <li {% if page.nav == "badrobots" %} class="active"{% endif %}><a href="./badrobots.html">Who we are</a></li>
-        <li class="divider-vertical"></li>
-        <li {% if page.nav == "do" %} class="active"{% endif %}><a href="./do.html">What we do</a></li>
         <li class="divider-vertical"></li>
         <li {% if page.nav == "make" %} class="active"{% endif %}><a href="./make.html">Our Work</a></li>
         <li class="divider-vertical"></li>
@@ -21,4 +18,4 @@
       </ul>
     </div>
   </div>
-</div>
+</nav>

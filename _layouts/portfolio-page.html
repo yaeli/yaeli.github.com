@@ -8,8 +8,15 @@
   <meta name="description" content="Bad Robot Design: user experience design consultancy">
   <meta name="keywords" content="user experience design, UX designer, freelance, portfolio, UX, London">
   <meta charset="UTF-8" />
-  <link href="../../css/bootstrap.css" rel="stylesheet">
-  <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
   <link href="../../css/styles.css" rel="stylesheet">
   <link href="../../lib/fancybox/jquery.fancybox.css" rel="stylesheet">
 
@@ -27,36 +34,32 @@
 
 </script>    
 </head>
+
 <body>
-  
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="../../index.html">
-          <img src="../../images/logo-tiny.png" alt="logo-smallest" />  Bad Robot Design
-        </a>
-        <ul class="nav">
-          <li><a href="../../index.html">Home</a></li>
-          <li class="divider-vertical"></li>
-          <li><a href="../../badrobots.html">Who we are</a></li>
-          <li class="divider-vertical"></li>
-          <li><a href="../../do.html">What we do</a></li>
-          <li class="divider-vertical"></li>
-          <li class="active"><a href="../../make.html">Our Work</a></li>
-          <li class="divider-vertical"></li>
-          <li><a href="../../happy.html">Happy Clients</a></li>
-          <li class="divider-vertical"></li>
-          <li><a href="http://blog.badrobotdesign.com/">Our Blog</a></li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="../../index.html"><img src="../../images/logo-tiny.png" alt="logo-smallest" />  Bad Robot Design</a>
     </div>
-  </div>
+   <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="../../index.html">Home</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="../../badrobots.html">Who we are</a></li>
+        <li class="divider-vertical"></li>
+        <li class="active"><a href="../../make.html">Our Work</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="../../happy.html">Happy Clients</a></li>
+        <li class="divider-vertical"></li>
+        <li><a href="http://blog.badrobotdesign.com/">Our Blog</a></li>
+      </ul>
+    </div>  
+  </nav>
 
 <div class="wrapper">  
   <div class="container">
     <a name="top"></a>
     <div class="row">
-      <div class="span12 header">
+      <div class="col-md-12 header">
         <h1>Bad Robot Design</h1>
       </div>
     </div>
@@ -67,12 +70,26 @@
   </div>
   
   <div id="footer">
-    <h3>Copyright &copy; 2012-2013, Bad Robot Design Ltd.</h3>
-    <p>Company Registration Number: 8079562. <br> Registered in England &amp; Wales.<br>Registered Office Address: Unit 11, Hove Business Centre, Fonthill Road, Hove, BN3 6HA.</p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-3">
+          <h2>Get in touch!</h2>
+          <p><img src="/../images/email.png" alt="mail" width="20" height="20" /> <a href="mailto:hello@badrobotdesign.com?Subject=Hello">hello@badrobotdesign.com</a></p>
+          <p><img src="/../images/facebook.png" alt="facebook" width="20" height="20"/> <a href="http://facebook.com/wearebadrobotdesign" target="_blank">wearebadrobotdesign</a></p>
+          <p><img src="/../images/twitter.png" alt="twitter" width="20" height="20"/> <a href="http://twitter.com/badrobotHQ" target="_blank">@BadRobotHQ</a></p>
+        </div>
+        <div class="col-md-9">
+          <h2>Copyright &copy; 2012-2013, Bad Robot Design Ltd</h3>
+          <p>Company Registration Number: 8079562<br> Registered in England &amp; Wales<br>Registered Office Address: Unit 11, Hove Business Centre, Fonthill Road, Hove, BN3 6HA</p>
+        </div>
+      </div>
+    </div>  
   </div>
   
-  <script src="../../js/jquery-1.7.2.min.js"></script>
-  <script src="../../js/bootstrap.js"></script>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
   <script src="../../lib/fancybox/jquery.fancybox.js"></script>
   
   <script type="text/javascript">
