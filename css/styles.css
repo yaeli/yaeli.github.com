@@ -285,16 +285,6 @@ blockquote p {
   padding-left: 2%;
 }
 
-.recommendations p {
-  font-family: Arial;
-  font-size: 1em;
-}
-
-.recommendations .overlay {
-  margin: 1.5% 0;
-  padding: 1%;
-}
-
 #footer h2 {
   color: #FFFFFF; 
 }
