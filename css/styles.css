@@ -313,3 +313,10 @@ blockquote p {
   text-align: center;
   margin: 5%;
 }
+
+.yael-skills {
+  border-top: solid 2px #B30008;
+  border-bottom: solid 2px #B30008;
+  margin: 4% 0 4% 0;
+  padding: 1% 0 1% 0;
+}
