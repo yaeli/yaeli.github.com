@@ -233,15 +233,8 @@ blockquote p {
 }
 
 .portfolio-main-content {
-  background-color: #333;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #ebebeb;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  -khtml-border-radius: 10px;
+  border-top: solid 2px #B30008;
   margin-top: 2%;
-  padding: 1%;
 }
 
 .proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
