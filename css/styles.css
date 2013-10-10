@@ -203,16 +203,6 @@ blockquote p {
 }
 
 .more-about {
-  margin-top: 5%;
-}
-
-.more-about p {
-  margin-top: 3%;
-}
-
-.more-about ul {
-  font-size: 1em;
-  line-height: 1.4em;
   margin-top: 2%;
 }
 
@@ -238,23 +228,7 @@ blockquote p {
 }
 
 .proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
-  margin: 5% 0;
-}
-
-.proj-challenge p {
-  margin-top: 2%;
-}
-
-.proj-actual p {
-  margin-top: 2%;
-}
-
-.proj-outcome p {
-  margin-top: 2%;
-}
-
-.proj-eval p {
-  margin-top: 2%;
+  margin: 2% 0;
 }
 
 .portfolio-img img {
@@ -262,7 +236,8 @@ blockquote p {
 }
 
 .portfolio-img p {
-  font-size: 0.8em;
+  font-size: 0.6em;
+  font-style: italic;
 }
 
 .project-meta {
@@ -308,4 +283,8 @@ blockquote p {
   border-top: solid 2px #B30008;
   margin: 4% 0 4% 0;
   padding: 1% 0 1% 0;
+}
+
+.label {
+  background-color: #E2AF34;
 }
