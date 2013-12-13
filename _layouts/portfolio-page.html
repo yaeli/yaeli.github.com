@@ -18,7 +18,13 @@
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
   <link href="../../css/styles.css" rel="stylesheet">
-  <link href="../../lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+  
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js"></script>
 
 <script type="text/javascript">
 
@@ -86,38 +92,14 @@
     </div>  
   </div>
   
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
-  <script src="../../lib/fancybox/jquery.fancybox.js"></script>
   
   <script type="text/javascript">
-    $('#navbar').scrollspy();
-    $('#myModal').modal();
-    
-    $(document).ready(function() {
-      $(".lightbox").fancybox({
-        helpers: {
-          title : {
-            type : 'float'
-          }
-        }
-      });
-    });
-    
-    $("#names li").click (function () {
-      var name = $(this).text() ;
-      var newpara = $("<p>" + name + "</p>")
-        .hide()
-        .click (function () {
-          $(this)
-            .fadeOut("fast", function(){
-              $(this).remove();
-            });
-        });
-      $("#list-info").append(newpara.fadeIn());
-    });
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
   </script>
+  
 </body>
 </html>
