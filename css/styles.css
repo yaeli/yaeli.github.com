@@ -271,21 +271,32 @@ blockquote p {
 }
 
 .piece {
-  border-top: solid 2px #B30008;
+  border-top: solid 2px #A80C0D;
   padding: 2% 0 0 0;
   text-align: center;
   margin: 5%;
 }
 
 .yael-skills {
-  border-top: solid 2px #B30008;
-  border-bottom: solid 2px #B30008;
-  margin: 4% 0 4% 0;
-  padding: 1% 0 1% 0;
+  border-top: solid 2px #A80C0D;
+  margin: 4% 0;
+  padding: 1% 0;
+}
+
+.yael-process {
+  border-top: solid 2px #A80C0D;
+  margin: 4% 0;
+  padding: 1% 0;
+}
+
+.yael-exp {
+  border-top: solid 2px #A80C0D;
+  margin: 4% 0;
+  padding: 1% 0;
 }
 
 .reco {
-  border-top: solid 2px #B30008;
+  border-top: solid 2px #A80C0D;
   margin: 4% 0 4% 0;
   padding: 1% 0 1% 0;
 }
