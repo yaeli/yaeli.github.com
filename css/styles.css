@@ -4,13 +4,17 @@ body {
 }
 
 .wrapper {
-  background-image: url('../images/background-image.jpg');
+  background-color: #A80C0D;
 }
 
 .navbar {
   font-family: 'Quicksand', cursive;
   font-weight: 700;
   font-size: 1.5em;
+}
+
+.navbar-nav {
+	float: right;
 }
 
 h1, h2, h3, h4 {
