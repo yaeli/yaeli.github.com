@@ -164,6 +164,10 @@ blockquote p {
   padding: 2%;
 }
 
+.clients a {
+	padding: 2%;
+}
+
 .skills {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
