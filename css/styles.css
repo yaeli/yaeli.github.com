@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  color: #333;
+  color: #222222;
 }
 
 .jumbotron {
@@ -85,15 +85,17 @@ p {
 }
 
 .btn-hp {
-  background-color: #E2AF34;
-  border-color: #E2AF34;
+  background-color: #222222;
+  border-color: #222222;
+  color: #ffffff;
 }
 
 .btn-hp:hover {
-  background-color: #E2AF34;
-  border-color: #E2AF34;
-  color: #333;
+  background-color: #222222;
+  border-color: #222222;
+  color: #ffffff;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .btn-second {
