@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-  font-family: 'Quicksand', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -22,12 +22,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Quicksand', cursive;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
 .label {
-  font-family: 'Quicksand', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 1em;
 }
@@ -37,13 +37,13 @@ h2 {
 }
 
 p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 1em;
 }
 
 .list {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   line-height: normal;
 }
