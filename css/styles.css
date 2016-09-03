@@ -3,6 +3,10 @@ body {
   color: #333;
 }
 
+.jumbotron {
+	background-color: #ffffff
+}
+
 .wrapper {
   background-color: #ffffff;
 }
