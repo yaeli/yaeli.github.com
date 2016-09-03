@@ -132,6 +132,10 @@ p {
   padding: 2%;
 }
 
+.handwritten {
+	font-family: 'Pacifico', cursive;
+}
+
 a {
   color: #E2AF34;
 }
