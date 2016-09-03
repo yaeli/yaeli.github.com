@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper {
-  background-color: #BA69AB;
+  background-color: #ffffff;
 }
 
 .navbar {
@@ -141,7 +141,6 @@ a:hover {
   padding-right: 20px;
   padding-left: 20px;
   background-color: #020202;
-  border-top: 2px #8D8989 solid;
 }
 
 blockquote {
