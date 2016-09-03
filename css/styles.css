@@ -14,12 +14,12 @@ body {
 .navbar {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-variant: small-caps;
   font-size: 1.5em;
 }
 
 .navbar-nav {
 	float: right;
+	font-variant: small-caps;
 }
 
 h1, h2, h3, h4 {
