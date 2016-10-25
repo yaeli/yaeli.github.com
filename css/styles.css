@@ -330,3 +330,7 @@ blockquote p {
 .process-pics {
 	margin-top: 4%
 }
+
+.container-fluid {
+	padding: 0;
+}
