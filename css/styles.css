@@ -223,6 +223,7 @@ blockquote p {
 
 .project-brief {
   margin-top: 2%;
+  padding: 2%;
 }
 
 .project-setup {
@@ -328,4 +329,8 @@ blockquote p {
 
 .container-fluid {
 	padding: 0;
+}
+
+.portfolio-content {
+	
 }
