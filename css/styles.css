@@ -247,11 +247,6 @@ blockquote p {
   margin-top: 1%;
 }
 
-.portfolio-main-content {
-  border-top: solid 2px #B30008;
-  margin-top: 2%;
-}
-
 .proj-challenge, .proj-actual, .proj-outcome, .proj-eval {
   margin: 2% 0;
 }
