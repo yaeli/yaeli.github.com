@@ -227,8 +227,9 @@ blockquote p {
   text-align: center;
 }
 
-.more-about {
+.project-brief {
   margin-top: 2%;
+  background-color: #8D8989;
 }
 
 .about-yael-services {
