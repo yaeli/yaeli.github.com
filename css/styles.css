@@ -329,5 +329,5 @@ blockquote p {
 }
 
 .label-divider {
-	border-bottom: solid 2px #E2AF34;
+	background-color: solid 2px #E2AF34;
 }
