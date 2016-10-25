@@ -228,6 +228,7 @@ blockquote p {
 #one {
     background-color: grey;
     height:500px;
+    width: 100%;
 }
 
 .test-one {
