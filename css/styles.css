@@ -327,3 +327,7 @@ blockquote p {
 .process-pics {
 	margin-top: 4%
 }
+
+.label-divider {
+	border-bottom: solid 2px #E2AF34;
+}
