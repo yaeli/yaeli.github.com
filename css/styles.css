@@ -225,10 +225,9 @@ blockquote p {
   margin-top: 2%;
 }
 
-#project-setup {
-    background-color: blue;
-    height:500px;
-    width: 100%;
+.project-setup {
+  background-color: purple;
+  height:500px;
 }
 
 .test-one {
