@@ -225,8 +225,9 @@ blockquote p {
   margin-top: 2%;
 }
 
-.container-zero {
-	background-color: blue;
+#one {
+    background-color: grey;
+    height:500px;
 }
 
 .test-one {
