@@ -300,12 +300,12 @@ blockquote {
 }
 
 .project-brief {
-	background-color: black;
+	background-color: #ff8300;
 	color: white;
 }
 
 .project-challenge {
-	background-color: green;
+	background-color: white;
 }
 
 .project-process {
