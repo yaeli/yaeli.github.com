@@ -54,6 +54,10 @@ p {
   line-height: normal;
 }
 
+.container-fluid {
+	padding: 0;
+}
+
 .overlay-home {
 
   color: #333;
