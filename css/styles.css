@@ -321,7 +321,19 @@ blockquote p {
 	background-color: red;
 }
 
-.project-setup-content, .project-brief-content {
+.project-challenge {
+	background-color: green;
+}
+
+.project-process {
+	background-color: blue;
+}
+
+.project-outcome {
+	background-color: yellow;
+}
+
+.project-setup-content, .project-brief-content, .project-challenge-content, .project-process-content, .project-outcome-content {
   margin-top: 2%;
   padding-left: 4%;
   padding-right: 4%;
