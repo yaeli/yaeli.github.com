@@ -304,19 +304,15 @@ blockquote {
 	color: white;
 }
 
-.project-challenge {
-	background-color: white;
-}
-
 .project-process {
-	background-color: blue;
+	background-color: white;
 }
 
 .project-outcome {
 	background-color: yellow;
 }
 
-.project-setup-content, .project-brief-content, .project-challenge-content, .project-process-content, .project-outcome-content {
+.project-setup-content, .project-brief-content, .project-process-content, .project-outcome-content {
   margin-top: 2%;
   margin-bottom: 2%;
   padding-left: 4%;
