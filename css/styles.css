@@ -300,7 +300,7 @@ blockquote {
 }
 
 .project-brief {
-	background-color: #ff8300;
+	background-color: black;
 	color: white;
 }
 
@@ -309,7 +309,8 @@ blockquote {
 }
 
 .project-outcome {
-	background-color: yellow;
+	background-color: black;
+	color: white;
 }
 
 .project-setup-content, .project-brief-content, .project-process-content, .project-outcome-content {
