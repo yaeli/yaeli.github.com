@@ -319,3 +319,8 @@ blockquote {
   padding-left: 4%;
   padding-right: 4%;
 }
+
+.project-label {
+	margin-top: 2%;
+	border-top: solid 4px #E2AF34;
+}
