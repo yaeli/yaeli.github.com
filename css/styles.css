@@ -319,7 +319,13 @@ blockquote {
 	margin-bottom: 1.5%;
 }
 
-.project-setup-content, .project-brief-content, .project-process-content, .project-outcome-content {
+.project-setup-content {
+  margin-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.project-brief-content, .project-process-content, .project-outcome-content {
   margin-top: 2%;
   margin-bottom: 2%;
   padding-left: 4%;
