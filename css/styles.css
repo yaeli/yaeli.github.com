@@ -313,6 +313,12 @@ blockquote {
 	color: white;
 }
 
+.project-button {
+	background-color: white;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
 .project-setup-content, .project-brief-content, .project-process-content, .project-outcome-content {
   margin-top: 2%;
   margin-bottom: 2%;
