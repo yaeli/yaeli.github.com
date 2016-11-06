@@ -313,7 +313,7 @@ blockquote {
 	color: white;
 }
 
-.project-button, .project-break {
+.project-button, .project-setup {
 	background-color: white;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -325,7 +325,7 @@ blockquote {
   padding-right: 4%;
 }
 
-.project-brief-content, .project-process-content, .project-outcome-content, .project-break-content {
+.project-brief-content, .project-process-content, .project-outcome-content, .project-setup-content {
   margin-top: 2%;
   margin-bottom: 2%;
   padding-left: 4%;
